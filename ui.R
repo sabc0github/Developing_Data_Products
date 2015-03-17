@@ -185,7 +185,9 @@ shinyUI(
                                                     ),
                                                     tabPanel("Help - App Documentation",
                                                              h3("Source Code URLs"),
-                                                             p("GitHub URLs")
+                                                             p("https://github.com/sabc0github/Developing_Data_Products"),
+                                                             p("ui.R"),
+                                                             p("server.R")
                                                     )
                                             )
                                    )
