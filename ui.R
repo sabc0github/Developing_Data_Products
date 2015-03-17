@@ -12,13 +12,13 @@ shinyUI(
         fluidPage(
                 
                 # Global Page Style Settings
-                style = "padding-top: 75px; padding-bottom: 50px; font-family: times new roman;",
+                style = "padding-top: 10px; padding-bottom: 50px; font-family: times new roman;",
                 
                 # Menu Bar
                 navbarPage(
                         
                         title = "Motor Trend Car Road Tests",
-                        position = "fixed-top",
+                        position = "static-top",
                         
                         # Menu-1
                         tabPanel("Data Set", 
